@@ -63,7 +63,15 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Aktor.cs" />
     <Compile Include="Model\Film.cs" />
+    <Compile Include="Model\Kino.cs" />
+    <Compile Include="Model\Klient.cs" />
+    <Compile Include="Model\Miejsce.cs" />
+    <Compile Include="Model\Platnosc.cs" />
+    <Compile Include="Model\Pracownik.cs" />
+    <Compile Include="Model\Rezerwacja.cs" />
+    <Compile Include="Model\Rezyser.cs" />
     <Compile Include="Model\SalaKinowa.cs" />
     <Compile Include="Model\Seans.cs" />
     <Compile Include="KinoDBCommonService.svc.cs">
