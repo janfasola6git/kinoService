@@ -17,7 +17,7 @@ namespace KinoDBCommonService.Model
        int   saalaId;
        int  nrSali;
       
-        [DataMember]
+       [DataMember]
        public int NrSali
         {
             get { return nrSali; }
