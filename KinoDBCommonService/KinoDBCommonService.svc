@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="KinoDBCommonService.Service1" CodeBehind="KinoDBCommonService.svc.cs" %>
