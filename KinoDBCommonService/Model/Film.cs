@@ -20,6 +20,7 @@ namespace KinoDBCommonService.Model
         int dataPremSwiat;
         int dataPremPolska;
 
+
         [DataMember]
         public string Tytul
         {
