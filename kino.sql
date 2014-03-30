@@ -111,6 +111,7 @@ nazwisko nvarchar(50) not null,
 adres text,
 login_ nvarchar(16) unique not null,
 email nvarchar(255) unique not null,
+password nvarchar(255) not null
 )
 go
 
