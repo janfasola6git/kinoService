@@ -14,9 +14,16 @@ namespace KinoDBCommonService.Model
     [DataContract]
     public class SalaKinowa
     {
-       int   saalaId;
+       int  salaId;
        int  nrSali;
-      
+
+       [DataMember]
+       public int SalaId
+       {
+           get { return salaId; }
+           set { salaId = value; }
+       }
+
        [DataMember]
        public int NrSali
         {
