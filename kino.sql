@@ -1,3 +1,4 @@
+--0
 
 --1
 create table Aktor
@@ -7,6 +8,7 @@ imie nvarchar(50) not null,
 nazwisko nvarchar(50) not null,
 )
 go
+
 --2
 create table Rezyser
 (

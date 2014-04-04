@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinoDBCommonService", "KinoDBCommonService\KinoDBCommonService.csproj", "{8318EB83-E0DB-4A6A-A7D1-106BDB3905CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLayer", "InterfaceLayer\InterfaceLayer.csproj", "{65654848-78B1-4993-ABA2-FEF9E196B256}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{8318EB83-E0DB-4A6A-A7D1-106BDB3905CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8318EB83-E0DB-4A6A-A7D1-106BDB3905CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8318EB83-E0DB-4A6A-A7D1-106BDB3905CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65654848-78B1-4993-ABA2-FEF9E196B256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65654848-78B1-4993-ABA2-FEF9E196B256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65654848-78B1-4993-ABA2-FEF9E196B256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65654848-78B1-4993-ABA2-FEF9E196B256}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
