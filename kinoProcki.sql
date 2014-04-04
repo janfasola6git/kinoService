@@ -1,5 +1,3 @@
-
-
 IF OBJECT_ID ( 'SP_Aktor_add', 'P' ) IS NOT NULL 
     DROP PROCEDURE SP_Aktor_add;
 GO
@@ -10,7 +8,7 @@ create procedure SP_Aktor_add
 @nazwisko nvarchar(255)
 )
 as
-begin
+begin --dfg
 	
 	insert into Aktor values (@imie,@nazwisko);
 	set @aktorId = scope_identity();
@@ -71,19 +69,21 @@ begin
 
 end
 
-IF OBJECT_ID ( 'SP_SalaKinowa_add', 'P' ) IS NOT NULL 
-    DROP PROCEDURE SP_SalaKinowa_add;
+IF OBJECT_ID ( 'SP_Seans_add', 'P' ) IS NOT NULL 
+    DROP PROCEDURE SP_Seans_add;
 GO
-create procedure SP_SalaKinowa_add
+create procedure SP_Seans_add
 (
-@SalaKinowaid int output,
-@kinoId int ,
-@nrSali int
+@Seansid int output,
+@salaKinowaId int ,
+@filmId int ,
+@dataStart datetime,
+@dataStop datetime 
 )
 as
 begin
 	
-	insert into SalaKinowa values (@kinoId,@nrSali);
+	insert into Seans values (@salaKinowaId,@filmId,@dataStart,@dataStop);
 	set @SalaKinowaId = scope_identity();
 
 end
