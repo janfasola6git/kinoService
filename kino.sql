@@ -54,6 +54,7 @@ nazwa nvarchar(255) not null,
 adres text not null
 )
 go
+insert into Kino values('Konik Polny', 'Boczna 12, Manhattan')
 --5.5
 create table SalaKinowa
 (
